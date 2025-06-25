@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.mycompany.quickchat.MessageTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.141 s <<< FAILURE! -- in com.mycompany.quickchat.MessageTest
+com.mycompany.quickchat.MessageTest.testDeleteMessageByHash -- Time elapsed: 0.013 s <<< ERROR!
+java.lang.IndexOutOfBoundsException: Index -1 out of bounds for length 1
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:100)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:106)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:302)
+	at java.base/java.util.Objects.checkIndex(Objects.java:385)
+	at java.base/java.util.ArrayList.get(ArrayList.java:427)
+	at com.mycompany.quickchat.MessageTest.testDeleteMessageByHash(MessageTest.java:111)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
